@@ -1,1 +1,1 @@
-require('borealis').setup(require('borealis').style.day)
+require('borealis').load_day()

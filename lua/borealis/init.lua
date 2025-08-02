@@ -33,7 +33,7 @@ local terminal_setup = function(theme)
   vim.g.terminal_color_14 = theme.cyan_bright
 end
 
-M.setup = function(style)
+M.load = function(style)
   local colors = require('borealis.colors').get_colors(style)
 
   local editor_theme = require('borealis.theme').build_editor_theme(colors)
@@ -62,6 +62,14 @@ M.build_extras = function()
 
     require('borealis.extras').build(style, theme)
   end
+end
+
+M.load_day = function()
+  M.load(M.style.day)
+end
+
+M.load_night = function()
+  M.load(M.style.night)
 end
 
 return M

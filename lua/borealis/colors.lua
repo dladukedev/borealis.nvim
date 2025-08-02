@@ -110,7 +110,7 @@ M.light_colors = {
   magenta_highlight = mixed_colors.magenta.bright_highlight,
 
   black = mixed_colors.black,
-  white = mixed_colors.grey[1],
+  white = mixed_colors.grey[9],
 
   black_bright = mixed_colors.grey[2],
   red_bright = mixed_colors.red.dark,
@@ -149,7 +149,7 @@ M.dark_colors = {
   magenta_highlight = mixed_colors.magenta.bright_highlight,
 
   black = mixed_colors.black,
-  white = mixed_colors.grey[1],
+  white = mixed_colors.grey[9],
 
   black_bright = mixed_colors.grey[2],
   red_bright = mixed_colors.red.bright,

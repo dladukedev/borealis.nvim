@@ -1,6 +1,5 @@
 local M = {}
 
-
 M.template = function(str, table)
   return (
     str:gsub("($%b{})", function(w)
@@ -8,6 +7,5 @@ M.template = function(str, table)
     end)
   )
 end
-
 
 return M
