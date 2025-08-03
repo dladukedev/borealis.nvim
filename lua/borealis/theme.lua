@@ -36,10 +36,10 @@ M.build_editor_theme = function(colors)
     string     = colors.green,
     identifier = colors.yellow,
     fun        = colors.cyan,
-    keyword    = colors.blue,
-    type       = colors.cyan,
+    keyword    = colors.dark_blue,
+    type       = colors.blue,
     constant   = colors.magenta,
-    special    = colors.blue,
+    special    = colors.dark_blue,
 
     selection  = colors.blue_highlight,
 

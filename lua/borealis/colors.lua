@@ -17,6 +17,7 @@ local base_colors = {
   green = "#A3BE8C",
   cyan = "#88C0D0",
   blue = "#81A1C1",
+  dark_blue = "#5E81AC",
   magenta = "#B48EAD",
 }
 
@@ -80,6 +81,7 @@ local mixed_colors = {
   dark_yellow = mix_color(base_colors.dark_yellow),
   green = mix_color(base_colors.green),
   blue = mix_color(base_colors.blue),
+  dark_blue = mix_color(base_colors.dark_blue),
   cyan = mix_color(base_colors.cyan),
   magenta = mix_color(base_colors.magenta),
 }
@@ -93,6 +95,7 @@ M.light_colors = {
   yellow = mixed_colors.dark_yellow.base,
   green = mixed_colors.green.base,
   blue = mixed_colors.blue.base,
+  dark_blue = mixed_colors.dark_blue.base,
   cyan = mixed_colors.cyan.base,
   magenta = mixed_colors.magenta.base,
 
@@ -132,6 +135,7 @@ M.dark_colors = {
   yellow = mixed_colors.yellow.base,
   green = mixed_colors.green.base,
   blue = mixed_colors.blue.base,
+  dark_blue = mixed_colors.dark_blue.base,
   cyan = mixed_colors.cyan.base,
   magenta = mixed_colors.magenta.base,
 
