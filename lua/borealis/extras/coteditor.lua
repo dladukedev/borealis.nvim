@@ -1,7 +1,9 @@
+local extra_utils = require('borealis.extras.utils')
+
 local M = {}
 
 M.build = function(theme)
-  local cottheme = require('borealis.extras.utils').template(
+  return extra_utils.template(
     [[{
   "attributes" : {
     "color" : "${editor.identifier}"
@@ -59,7 +61,6 @@ M.build = function(theme)
   }
 }
   ]], theme)
-  return cottheme
 end
 
 return M

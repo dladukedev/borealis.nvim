@@ -9,7 +9,7 @@
     "color" : "#A3BE8C"
   },
   "commands" : {
-    "color" : "#81A1C1"
+    "color" : "#5E81AC"
   },
   "comments" : {
     "color" : "#969696"
@@ -26,7 +26,7 @@
     "color" : "#969696"
   },
   "keywords" : {
-    "color" : "#81A1C1"
+    "color" : "#5E81AC"
   },
   "lineHighlight" : {
     "color" : "#414858b3"
@@ -45,7 +45,7 @@
     "color" : "#414858"
   },
   "types" : {
-    "color" : "#88C0D0"
+    "color" : "#81A1C1"
   },
   "values" : {
     "color" : "#B48EAD"

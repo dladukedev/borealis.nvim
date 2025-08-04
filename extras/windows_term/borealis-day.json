@@ -1,0 +1,27 @@
+{
+  "name": "Borealis Day",
+
+  "cursorColor": "#414858",
+  "selectionBackground": "#D1DBE7",
+
+  "background": "#E5E9F0",
+  "foreground": "#414858",
+
+  "black": "#111111",
+  "red": "#BF616A",
+  "green": "#A3BE8C",
+  "yellow": "#DCA434",
+  "blue": "#81A1C1",
+  "purple": "#B48EAD",
+  "cyan": "#88C0D0",
+  "white": "#D8D8D8",
+
+  "brightBlack": "#3D3D3D",
+  "brightRed": "#9F545B",
+  "brightGreen": "#899F77",
+  "brightYellow": "#B78A30",
+  "brightBlue": "#6E87A1",
+  "brightPurple": "#977891",
+  "brightCyan": "#73A0AD",
+  "brightWhite": "#EEEEEE"
+}

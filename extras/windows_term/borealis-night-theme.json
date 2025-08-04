@@ -1,0 +1,15 @@
+{
+  "name": "Borealis Night",
+  "tab": {
+    "background": "#212121FF",
+    "showCloseButton": "always",
+    "unfocusedBackground": null
+  },
+  "tabRow": {
+    "background": "#111111FF",
+    "unfocusedBackground": "#111111FF"
+  },
+  "window": {
+    "applicationTheme": "dark"
+  }
+}

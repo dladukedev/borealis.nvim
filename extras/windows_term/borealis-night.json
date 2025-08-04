@@ -1,0 +1,27 @@
+{
+  "name": "Borealis Night",
+
+  "cursorColor": "#D8DEE9",
+  "selectionBackground": "#343B41",
+
+  "background": "#212121",
+  "foreground": "#D8DEE9",
+
+  "black": "#111111",
+  "red": "#BF616A",
+  "green": "#A3BE8C",
+  "yellow": "#EBCB8B",
+  "blue": "#81A1C1",
+  "purple": "#B48EAD",
+  "cyan": "#88C0D0",
+  "white": "#D8D8D8",
+
+  "brightBlack": "#3D3D3D",
+  "brightRed": "#C77C85",
+  "brightGreen": "#B0C7A0",
+  "brightYellow": "#EAD19F",
+  "brightBlue": "#95AFCA",
+  "brightPurple": "#BEA0BA",
+  "brightCyan": "#9BC8D6",
+  "brightWhite": "#EEEEEE"
+}

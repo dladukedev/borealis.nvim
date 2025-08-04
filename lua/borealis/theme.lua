@@ -1,6 +1,6 @@
 local M = {}
 
-M.build_terminal_theme = function(colors)
+local build_terminal_theme = function(colors)
   return {
     black = colors.black,
     red = colors.red,
@@ -23,7 +23,7 @@ M.build_terminal_theme = function(colors)
   }
 end
 
-M.build_editor_theme = function(colors)
+local build_editor_theme = function(colors)
   return {
     fg         = colors.fg,
     fg_dim     = colors.grey2,
@@ -62,11 +62,16 @@ M.build_editor_theme = function(colors)
   }
 end
 
-M.build_theme = function(colors)
-  return {
-    terminal = M.build_terminal_theme(colors),
-    editor = M.build_editor_theme(colors),
+M.build_theme = function(colors, opts)
+  local theme = {
+    style = colors.style,
+    terminal = build_terminal_theme(colors),
+    editor = build_editor_theme(colors),
   }
+
+  theme = opts.override_theme(colors, theme)
+
+  return theme
 end
 
 return M

@@ -1,7 +1,9 @@
+local extra_utils = require('borealis.extras.utils')
+
 local M = {}
 
 M.build = function(theme)
-  local ghostty = require('borealis.extras.utils').template(
+  return extra_utils.template(
     [[
 palette = 0=${terminal.black}
 palette = 1=${terminal.red}
@@ -28,7 +30,6 @@ selection-foreground = ${editor.fg}
 ]],
     theme
   )
-  return ghostty
 end
 
 return M

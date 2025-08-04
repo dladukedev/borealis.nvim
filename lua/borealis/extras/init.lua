@@ -12,6 +12,8 @@ local name_pattern = '{NAME}'
 local files = {
   coteditor = { module = "coteditor", dir = "coteditor", filename = name_pattern .. ".cottheme" },
   ghostty = { module = "ghostty", dir = "ghostty", filename = name_pattern },
+  windows_term = { module = "windows_term", dir = "windows_term", filename = name_pattern .. ".json" },
+  windows_term_theme = { module = "windows_term_theme", dir = "windows_term", filename = name_pattern .. "-theme.json" },
 }
 
 

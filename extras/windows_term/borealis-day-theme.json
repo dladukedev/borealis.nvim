@@ -1,0 +1,15 @@
+{
+  "name": "Borealis Day",
+  "tab": {
+    "background": "#E5E9F0FF",
+    "showCloseButton": "always",
+    "unfocusedBackground": null
+  },
+  "tabRow": {
+    "background": "#111111FF",
+    "unfocusedBackground": "#111111FF"
+  },
+  "window": {
+    "applicationTheme": "light"
+  }
+}

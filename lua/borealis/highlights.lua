@@ -1,6 +1,6 @@
 local M = {}
 
-M.highlights = function(theme)
+local builtin_highlights = function(theme)
   return {
     -- Base
     Normal                           = { fg = theme.fg, bg = theme.bg },
@@ -173,6 +173,12 @@ M.highlights = function(theme)
     GitSignsStagedDelete             = { link = "RemoveStaged" },
     GitSignsStagedChange             = { link = "ChangeStaged" },
   }
+end
+
+M.highlights = function(opts, colors, theme)
+  local builtin = builtin_highlights(theme.editor)
+  local custom_highlights = opts.custom_highlights(colors, theme)
+  return vim.tbl_deep_extend('force', builtin, custom_highlights)
 end
 
 return M
