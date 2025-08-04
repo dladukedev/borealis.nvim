@@ -39,7 +39,7 @@ M.build_editor_theme = function(colors)
     keyword    = colors.dark_blue,
     type       = colors.blue,
     constant   = colors.magenta,
-    special    = colors.dark_blue,
+    special    = colors.blue,
 
     selection  = colors.blue_highlight,
 

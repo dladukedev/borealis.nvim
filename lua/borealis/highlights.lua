@@ -24,7 +24,8 @@ M.highlights = function(theme)
     -- Coding
     Function                         = { fg = theme.fun },
     Identifier                       = { fg = theme.identifier },
-    Keyword                          = { fg = theme.keyword },
+    Keyword                          = { fg = theme.keyword, italic = true },
+    Operator                         = { fg = theme.keyword },
     Variable                         = { fg = theme.variable },
     Comment                          = { fg = theme.nontext, italic = true },
     Constant                         = { fg = theme.constant },
@@ -57,7 +58,6 @@ M.highlights = function(theme)
     DiffText                         = { bg = theme.text_bg },
 
     -- Other Linked
-    Operator                         = { link = "Keyword" },
     Whitespace                       = { link = "NonText" },
     Delimiter                        = { link = "NonText" },
     PreProc                          = { link = "Keyword" },
@@ -66,7 +66,7 @@ M.highlights = function(theme)
     qfFileName                       = { link = "Directory" },
     SpecialKey                       = { link = "Special" },
     Conceal                          = { link = "NonText" },
-    Directory                        = { link = "Keyword" },
+    Directory                        = { link = "Special" },
 
     -- Messages
     MsgArea                          = { link = 'StatusLine' },
@@ -85,7 +85,7 @@ M.highlights = function(theme)
     FoldColumn                       = { link = "NonText" },
     LineNr                           = { link = "Secondary" },
     MatchParen                       = { link = "HighlightText" },
-    SignColumn                       = { link = "Keyword" },
+    SignColumn                       = { link = "Special" },
     StatusLine                       = { link = "Secondary" },
     StatusLineNC                     = { link = "NonText" },
     Title                            = { link = "HighlightText" },
