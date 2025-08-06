@@ -1,4 +1,4 @@
-# Borealis.nvim
+#  Borealis.nvim
 
 A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 [Lua](https://www.lua.org) pulling colors from [Nord Theme](https://www.nordtheme.com/) with a darker background and color usage inspired by [Kanagawa Dragon](https://github.com/rebelot/kanagawa.nvim).
@@ -12,10 +12,10 @@ A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
   </tr>
   <tr>
     <td width="50%">
-            TODO
+      <img width="1774" height="1119" alt="Screenshot 2025-08-05 at 8 48 59 PM" src="https://github.com/user-attachments/assets/b8cbedf0-df10-41ea-a49a-86eaa7aee834" />
     </td>
     <td width="50%">
-            TODO
+      <img width="1774" height="1119" alt="Screenshot 2025-08-05 at 8 49 44 PM" src="https://github.com/user-attachments/assets/fca4fc65-cbb1-4c90-9a99-9f91fa651509" />
     </td>
   </tr>
 </table>
@@ -28,7 +28,7 @@ A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 
 ## Installation
 
--- Lazy
+#### Lazy
 ```lua
 return {
     'dladukedev/borealis.nvim',
@@ -38,12 +38,12 @@ return {
 }
 ```
 
--- Mini.Deps
+#### Mini.Deps
 ```lua
 MiniDeps.add('dladukedev/borealis.nvim')
 ```
 
--- vim.pack
+#### vim.pack
 ```lua
 vim.pack.add({'https://github.com/dladukedev/borealis.nvim'})
 ```
@@ -111,14 +111,11 @@ Also available as User Commands
 
 ## Extras
 
-<details>
-  <summary>Configuration files for terminals, applications, etc</summary>
+Configuration files for terminals, applications, etc
 
 - [Ghostty](extras/ghostty) - [learn more](https://github.com/ghostty-org/ghostty)
 - [Windows Terminal & Theme](extras/windows_term) - [learn more](https://github.com/microsoft/terminal)
 - [Coteditor](extras/coteditor) - [learn more](https://github.com/coteditor/CotEditor)
-
-</details
 
 ## Similar Themes
 
