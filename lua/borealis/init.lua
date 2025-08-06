@@ -118,10 +118,10 @@ M.setup = function(opts)
 
   if default_theme == utils.style.day then
     M.load_day()
-  elseif  default_theme == utils.style.night then
+  elseif default_theme == utils.style.night then
     M.load_night()
-  elseif default_theme ~= '' then
-    vim.notify("Failed to load default theme with name '" .. default_theme .. "'", vim.log.levels.WARN)
+  elseif default_theme then
+    vim.notify("Borealis: Failed to load default_theme with name '" .. default_theme .. "'", vim.log.levels.WARN)
   end
 end
 
